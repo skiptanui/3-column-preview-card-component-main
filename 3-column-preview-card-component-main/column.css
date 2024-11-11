@@ -1,0 +1,59 @@
+.container{
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: 30px auto;
+    border-radius: 10px;
+    overflow: hidden
+}
+.cars{
+    padding: 30px;
+}
+.cars p{
+    width: 80%;
+    margin-bottom: 100px;
+}
+.cars button{
+    padding: 13px;
+    border: none;
+    border-radius: 30px;
+}
+
+#sedan-content{
+    background-color:hsl(31, 77%, 52%) ;
+    color:white;
+
+}
+.sed{
+    color:hsl(31, 77%, 52%) ; 
+}
+.suv{
+    color: hsl(184, 100%, 22%);
+}
+.lux{
+    color:  hsl(179, 100%, 13%);
+}
+#suvs-content{
+    color: white;
+    background-color: hsl(184, 100%, 22%);
+    
+}
+#luxury-content{
+    color: white;
+    background-color: hsl(179, 100%, 13%);
+   
+}
+/* //breakpoints */
+@media  (max-width: 375px) { 
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .cars p{
+        width: 80%;
+        margin-bottom: 30px;
+    }
+}
+/* //asdsdfdd */
